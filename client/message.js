@@ -50,7 +50,6 @@ class Message {
     this.timestamp = this.root.querySelector('time')
     // placeholder div so it can be replaced with the real thing when bound
     this.identicon = this.root.querySelector('.identicon')
-    this.muteButton = this.root.querySelector('.menu button')
     this.messageOverflow = this.root.querySelector('.message-overflow')
 
     // generate icons where needed
